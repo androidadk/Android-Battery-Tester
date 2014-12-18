@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.mobilemerit.batterychecker;
+package com.androidadk.batterychecker;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
