@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/stats_bg_color" >
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:padding="4dp"
+            android:src="@drawable/ic_temp"
+            android:background="@color/color_tag_temp"/>
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/body_color"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/temp_tag"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="Temperature" />
+
+        <TextView
+            android:id="@+id/tempreture"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@color/color_tag_temp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/stats_alter_color" >
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/color_tag_health"
+            android:padding="4dp"
+            android:src="@drawable/ic_health" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/body_color"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/health_tag"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:text="Health" />
+
+        <TextView
+            android:id="@+id/health"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@color/color_tag_health"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/stats_bg_color"
+        >
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/color_tag_voltage"
+            android:padding="4dp"
+            android:src="@drawable/ic_vol" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/body_color"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/voltage_tag"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:text="Voltage" />
+
+        <TextView
+            android:id="@+id/voltage"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@color/color_tag_voltage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/stats_alter_color" >
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/color_tag_tech"
+            android:padding="4dp"
+            android:src="@drawable/ic_tech" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/body_color"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/technology_tag"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:layout_marginLeft="5dp"
+            android:text="Technology" />
+
+        <TextView
+            android:id="@+id/technology"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@color/color_tag_tech"/>
+    </LinearLayout>
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/stats_bg_color" >
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:padding="4dp"
+            android:src="@drawable/stopwatch"
+            android:background="@color/color_tag_uptime"/>
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/body_color"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/uptime_tag"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="Uptime" />
+
+        <TextView
+            android:id="@+id/uptime"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@color/color_tag_temp"/>
+    </LinearLayout>
+</LinearLayout>

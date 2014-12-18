@@ -1,0 +1,3 @@
+/home/mohan/AndroidStudioProjects/Battery/BatteryChecker/build/intermediates/classes/debug
+/home/mohan/AndroidStudioProjects/Battery/BatteryChecker/build/intermediates/pre-dexed/debug/libGoogleAnalyticsV2-57fea9ff42c03604b5bbf092ef647e70528ea012.jar
+/home/mohan/AndroidStudioProjects/Battery/BatteryChecker/build/intermediates/pre-dexed/debug/support-v4-18.0.0-469c0bbd50dad3657291cde65da7404c41a6d973.jar

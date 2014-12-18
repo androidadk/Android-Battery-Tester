@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Current Template -->
+    <color name="header_color">#e8e8e8</color>
+    <color name="body_color">#ffffff</color>
+    <color name="stats_bg_color">#eee</color>
+    <color name="stats_alter_color">#fafafa</color>
+    <color name="header_txt_color">#000000</color>
+    <color name="body_txt_color">#525252</color>
+    <color name="battery_foreground_color">#8BC34A</color>
+     <color name="battery_boder_color">#8BC34A</color>
+    <color name="battery_background_color">#ffffff</color>
+    <color name="color_tag_temp">#b91d47</color>
+    <color name="color_tag_health">#2d89ef</color>
+    <color name="color_tag_voltage">#00a300</color>
+    <color name="color_tag_tech">#ef9a05</color>
+    <color name="color_tag_uptime">#4e342e</color>
+    
+    
+  
+</resources>
